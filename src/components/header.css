@@ -1,0 +1,9 @@
+.bar {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.menuItem {
+  margin: auto;
+}
