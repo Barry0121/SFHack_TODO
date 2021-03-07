@@ -1,3 +1,18 @@
 .Main {
-  background-color: #4da5d4;
+  background-color: #222B73;
+}
+.MainBg {
+  background-image: url("../images/bg.svg");
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 40px;
+  display: block;
+}
+.MainBg img {
+  width: 500px;
+  display: inline-block;
+  margin-left: calc(50% - 250px);
+  margin-top: 350px;
 }
