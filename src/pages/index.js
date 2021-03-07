@@ -5,27 +5,30 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 import Boat from "../images/boat.svg"
+import Background from "../images/bg.svg"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <div className="Main">
-    <Layout>
-        <SEO title="Titanic" />
-        <h1>Wassup</h1>
-        <img src={Boat} alt="Titanic-Img" />
-        <img src={Boat} alt="Titanic-Img" />
-        <img src={Boat} alt="Titanic-Img" />
-        <img src={Boat} alt="Titanic-Img" />
-        <p>
-          <Link to="/analysis/">Go to Analysis</Link>
-        </p>
+    <Header />
+    <SEO title="Titanic" />
 
-        <div className="aboutUs" id="about">
-          <p>Blah</p>
-        </div>
-        <div className="conclusion" id="conclusion">
-          <p>Blah</p>
-        </div>
-    </Layout>
+    <div className="MainBg">
+      <img src={Boat} alt="Titanic-Img" />
+    </div>
+    
+    
+    
+    <p>
+      <Link to="/analysis/">Go to Analysis</Link>
+    </p>
+
+    <div className="aboutUs" id="about">
+      <p>Blah</p>
+    </div>
+    <div className="conclusion" id="conclusion">
+      <p>Blah</p>
+    </div>
   </div>
 )
 

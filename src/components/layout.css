@@ -59,6 +59,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  font-family: "Poppins";
+  font-weight: 800;
 }
 a:active,
 a:hover {
@@ -105,9 +107,6 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
-svg:not(:root) {
-  overflow: hidden;
 }
 
 h2 {
