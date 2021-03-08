@@ -1,5 +1,5 @@
 .Main {
-  background-color: #222B73;
+  background-color: #4DA5D4;
 }
 .MainBg {
   background-image: url("../images/bg.svg");
@@ -11,8 +11,61 @@
   display: block;
 }
 .MainBg img {
-  width: 500px;
+  width: 700px;
   display: inline-block;
-  margin-left: calc(50% - 250px);
-  margin-top: 350px;
+  margin-left: calc(50% - 350px);
+  margin-top: 175px;
+}
+.content1 {
+  padding-top: 100px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.aboutUs {
+  display: grid;
+  margin: 100px auto;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.aboutUs img {
+  max-width: 500px;
+}
+
+.content1 img {
+  margin: auto;
+  max-width: 500px;
+}
+.TextGroup {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+.linkTo {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: #222B73;
+  text-decoration: none;
+}
+.Main2 {
+  background-color: #222B73;
+}
+.final {
+  width: 100%;
+}
+.SeaBg {
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  margin: auto;
+  padding-top: 40px;
+  display: block;
+}
+.fuck {
+  max-height: 1000px;
+  margin: auto;
 }
