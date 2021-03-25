@@ -8,7 +8,7 @@ const AnalysisPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1>Hi from the Analysis page</h1>
-    <p>Data Analysis Goes Here</p>
+    <p>changed</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
